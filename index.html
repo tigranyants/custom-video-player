@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>video player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
-    
+     <div class="wrapper">
+       <video id="video">
+        <source src="videos/video-with-subtitles.mp4">
+       </video>
+
+       <div class="controls">
+        <button class="controls__play_pause">Play/Pause</button>
+        <button class="controls__stop">Stop</button>
+        <div class="">
+            <progress id="progress" value="0" min="0">
+                <span id="progress__bar"></span>
+            </progress>
+        </div>
+        <button class="controls__mute">Mute</button>
+        <button class="controls__volup">+</button>
+        <button class="controls__voldown">-</button>
+       </div>
+    </div>
 </body>
 </html>

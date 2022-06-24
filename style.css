@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper video{
+    margin: 30px;
+    height: 80vh;
+    width: 100%;
+}
+.controls {
+    display: flex;
+    column-gap: 16px;
+}
+
+button{
+    padding:  .5rem 1rem;
+    font-size: 1.1rem;
+    transition: 0.2s;
+    border: none;
+    border-radius: 6px;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+
+.controls__play_pause {
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+.controls__stop {
+    background-color: darkcyan;
+    color: aliceblue;
+}
+.controls__mute {
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+.controls__volup {
+    background-color: #fff;
+}
+.controls__voldown {
+    background-color: black;
+    color: #fff;
+}

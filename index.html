@@ -15,16 +15,16 @@
        </video>
 
        <div class="controls">
-        <button class="controls__play_pause">Play/Pause</button>
-        <button class="controls__stop">Stop</button>
+        <button class="controls__play_pause" id="playPause" data-video-state="pause">▶/Pause</button>
+        <button class="controls__stop" id="stop">Stop</button>
         <div class="">
             <progress id="progress" value="0" min="0">
-                <span id="progress__bar"></span>
+                <span id="progress__bar" class="progressbar"></span>
             </progress>
         </div>
-        <button class="controls__mute">Mute</button>
-        <button class="controls__volup">+</button>
-        <button class="controls__voldown">-</button>
+        <button class="controls__mute" id="mute">Mute</button>
+        <button class="controls__volup" id="volup">+</button>
+        <button class="controls__voldown" id=voldown>-</button>
        </div>
     </div>
 </body>

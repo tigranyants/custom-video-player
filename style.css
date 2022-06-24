@@ -47,8 +47,15 @@ button:active{
 }
 .controls__volup {
     background-color: #fff;
+    border: 1px solid black;
 }
 .controls__voldown {
     background-color: black;
     color: #fff;
+}
+
+.progressbar{
+}
+progress{
+    height: 50px;
 }
